@@ -1,0 +1,1 @@
+remember that doing a flex 1 will fill out your remaining space of you container. You were having this issue when trying to create 16x16 grid. 

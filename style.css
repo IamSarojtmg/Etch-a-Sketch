@@ -1,0 +1,12 @@
+.container{
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
