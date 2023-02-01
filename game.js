@@ -11,24 +11,24 @@ function div ()
 {
     for(x = 1; x <=256; x++)
     {
-        const divOne = document.createElement('div')
-        mainDiv.appendChild(divOne)
-        divOne.classList.add('grids')
-        divOne.style.backgroundColor = 'pink'
-        divOne.style.height = 'auto'
-        divOne.style.minWidth = '5.5%'
+        const smallBox = document.createElement('div')
+        mainDiv.appendChild(smallBox)
+        smallBox.style.backgroundColor = 'pink'
+        smallBox.style.height = '30px'
+        smallBox.style.minWidth = '5.5%'
+        smallBox.style.borderColor = 'black'
+        smallBox.style.borderStyle = 'solid'
+        smallBox.style.borderWidth = '1px'
+        // divOne.style.flex = '1'
 
-        divOne.style.borderColor = 'black'
-        divOne.style.borderStyle = 'solid'
-        divOne.style.borderWidth = '1px'
-        divOne.style.flex = '1'
-        
+        smallBox.addEventListener('mouseover', ()=>{
+            smallBox.style.backgroundColor = 'green'
+        })
     }
 
 }
-
-
-
-
 div()
+
+
+
 
