@@ -1,11 +1,27 @@
 .container{
-    /* height: auto;
-    width: auto; */
-    display: flex;
-    flex-wrap: wrap;
+max-width: 500px;
+display: flex; 
+flex-flow: wrap; 
+border: 2px solid red;
 }
 
 body{
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.grid{
+background-color: pink;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+height: 30px;
+width: 5%;
+}
+
+.button{
+    height: 20px;
+    width: 50px;
+    margin-top: 200px;
 }

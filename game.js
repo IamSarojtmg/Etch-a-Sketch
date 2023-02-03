@@ -1,11 +1,6 @@
-//create 16x16 div
-
-
 const mainDiv = document.createElement('div')
 mainDiv.classList.add('container')
 document.body.appendChild(mainDiv)
-
-
 
 function div ()
 {
@@ -13,22 +8,24 @@ function div ()
     {
         const smallBox = document.createElement('div')
         mainDiv.appendChild(smallBox)
-        smallBox.style.backgroundColor = 'pink'
-        smallBox.style.height = '30px'
-        smallBox.style.minWidth = '5.5%'
-        smallBox.style.borderColor = 'black'
-        smallBox.style.borderStyle = 'solid'
-        smallBox.style.borderWidth = '1px'
-        // divOne.style.flex = '1'
-
+        smallBox.classList.add('grid')
         smallBox.addEventListener('mouseover', ()=>{
             smallBox.style.backgroundColor = 'green'
         })
     }
-
+    
+    
+    
 }
 div()
 
 
 
 
+const button = document.createElement('button')
+button.classList.add('button')
+document.body.appendChild(button)
+button.addEventListener('click', ()=>{
+    let userInput = prompt('Enter number between 0 - 100')
+    console.log(userInput);
+})
