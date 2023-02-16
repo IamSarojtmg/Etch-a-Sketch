@@ -1,16 +1,7 @@
 # Documentation
 
-Check notion
+## CHECK NOTION FOR FULL NOTES ON THIS PROJECT
 
-
- ### **HOW TO MANUPLATE OUTER DIV TO RESIZE ACCORDING TO INNERDIV**
-
-
-
-### **MAX-WIDTH**
-
-
-### width in % relation to height on flex
 
 
 ### **REPLACING DIV FIXED**
@@ -19,4 +10,3 @@ Check notion
     2. Like this `mainDiv.textContent = '';`
     3. Than the data entered by the user gets sent to the loop where it creates a newGridDiv and displays its contents inside the mainDiv.
 
-Check more on notion
