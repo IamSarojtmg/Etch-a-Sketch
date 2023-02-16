@@ -55,26 +55,19 @@ btn.addEventListener('click', ()=>
 
         mainDiv.style.gridTemplateColumns = 'repeat(var(--columns-row), 1fr)';
         mainDiv.style.gridTemplateRows = 'repeat(var(--columns-row), 1fr)';
-   
-
-
-
-
 
         // newGridDiv.style.border = '1px solid white';
         newGridDiv.style.aspectRatio = '1/1'
 
-
-
-
-
          newGridDiv.addEventListener('mouseover', ()=>
          {
-             newGridDiv.style.backgroundColor = 'white'
+             newGridDiv.style.backgroundColor = getRandomRGB()
          })
     }
-    
-
-
 })
 
+function getRandomRGB() {
+    let difColors = Math.floor(Math.random()*16777215).toString(16);
+    let result = '#' + difColors;
+    return result;
+}
